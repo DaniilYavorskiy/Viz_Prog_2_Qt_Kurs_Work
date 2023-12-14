@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imghtml/cinema.png" type="image/png">
+    <title>QT HTML Documentation for Cinema</title>
+<style type="text/css">
+    
+body {
+ background-color: #b30000; /* фон сайта */
+}
+
+h1, h2, h4, p {
+ color: #fff; /* белый цвет шрифта */
+}
+
+p {
+    font-size: 20px;
+}
+
+.button {
+  appearance: none;
+  background-color: #013220;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #2c974b;
+}
+
+.button:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button:active {
+  background-color: brown;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+</style>
+
+</head>
+<body>
+    <center>
+    <header>
+        <h1>Справка по приложению "4D CINEMA"</h1>
+    </header>
+    <p>
+<div class="button-row">
+  <a href="#introduction" class="button">Введение</a>
+  <a href="#getting-started" class="button">Первый запуск приложения</a>
+  <a href="#booking" class="button">Бронирование сеанса</a>
+  <a href="#QMenu" class="button">Верхнее меню</a>
+</div>
+    </p>
+    </center>
+    <main>
+        <section id="introduction">
+            <center><h2>Введение</h2></center>
+            <p>Эта HTML-документация содержит обзор и подробную информацию о функциях и возможностях доступных в приложении "<b>4D CINEMA</b>".</p>
+        </section>
+        <section id="getting-started">
+            <br>
+            <center><h2>Первый запуск приложения</h2></center>
+            <p>Когда приложение запустилось перед вами откроется главное окно открытии. Внизу окна расположены три кнопки:</p>
+            <center><img src="imghtml/1.jpg"></center>
+            <p>
+            Первая кнопка показывает адреса расположения кинотеатров, телефоны и почту для связи с сотрудниками кинотеатра. Вторая кнопка демонстрирует фильмы, идущие на данный момент в кинотеатре:</p>
+            <center><img src="imghtml/10.jpg"></center>                               
+            <p>
+            Вы можете ознакомиться с новинками, перейдя по одноименной кнопке с афиши всех фильмов.    
+            </p>
+            <center><img src="imghtml/11.jpg"></center>
+            <p>
+            Нажав на кнопку подробнее под любой афишой вам откроется окно с описанием фильма и дополнительной кнопкой "<b>Билеты</b>",
+            <img src="imghtml/2.jpg"> при нажатии на которую вы можете забронировать билет на выбранный фильм, войдя в свой аккаунт, если вы зарегистрированы. </p>
+            <center><img src="imghtml/3.jpg"></center>
+            <p>
+            Если же у вас нет аккаунта в приложении, то перед бронированием вам нужно зарегистрироваться по третьей кнопке в главном окне "<b>Личный кабинет</b>" либо при нажатии кнопки "<b>Билеты</b>" вы также можете перейти к форме регистрации, использовав кнопку "<b>Регистрация</b>". </p>
+            <center><img src="imghtml/4.jpg"></center>
+            <p>
+            В каждом поле ввода стоит проверка на корректность введеных данных: к примеру указание фамилии или имени при регистрации должно быть строго с большой буквы на русской раскладке, никаких цифр и других знаков приложение в данных двух полях не поддерживает, логин пишется только латинскими буквами (большими и маленькими), возможен ввод цифр, при вводе пароля символы скрываются, будьте внимательны.</p>
+            <center><img src="imghtml/5.jpg"></center>
+            <p>
+            Можно вводить также латинские буквы (большие и маленькие) и цифры. Поэтому пожалуйста заполняйте данные как нужно, иначе поля будут оставаться пустыми.</p>    
+        </section>
+        <section id="booking">
+            <br>
+            <center><h2>Бронирование сеанса</h2></center>
+            <p>Когда вы зарегистрировались и перешли на форму бронирования билетов, перед вами появится отображение схемы зала, выше вы можете выбрать нужный вам фильм, дату и время сеанса. После этого вы должны выбрать места, они подсветятся и будут отображаться в поле "<b>Выбранные места</b>" и написать фамилию, которая вы указали при регистрации, на неё будут забронированы билеты. </p>
+            <center><img src="imghtml/6.jpg"><br><img src="imghtml/7.jpg"></center>
+            <p>Билеты отобразатся в вашем личном кабинете как только вы нажмёте кнопку "<b>Забронировать</b>":</p>
+            <center><img src="imghtml/8.jpg"></center>
+            <p>Здесь вы также можете изменить данные своего аккаунта, удалить его. Помните что бронь также удалится с вашим ааккаунтом.</p>
+        </section>
+        <section id="QMenu">
+            <br>
+            <center><h2>Верхнее меню (вкладки)</h2></center>
+            <p>С помощью вкладок реализован альтернативный метод попадания в различные части приложения, а также имеется несколько дополнительных функций (помощь, отзывы, скрытые функции для администратора, доступ к которым обычный пользователь получить не может, и выход из приложения), переход к которым осуществляется только при помощи данных вкладок или определенных сочетаний горячих клавиш.</p>
+            <center><img src="imghtml/9.jpg">&nbsp&nbsp&nbsp<img src="imghtml/9.1.jpg">&nbsp&nbsp&nbsp<img src="imghtml/9.2.jpg"></center>
+            <p>При переходе на вкладку "Помощь" вы попадаете сюда, на справку-руководство пользователя.</p>
+        </section>
+    </main>
+    <footer><center>
+        <p><h4>&copy; 2023 QT HTML Documentation for "4D Cinema"</h4></p>
+    </center></footer>
+</body>
+</html>

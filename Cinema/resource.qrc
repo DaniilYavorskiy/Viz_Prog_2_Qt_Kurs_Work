@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>img/login.png</file>
+        <file>img/cinema.png</file>
+        <file>img/afisha.png</file>
+        <file>img/exit.png</file>
+        <file>img/reviews.png</file>
+        <file>img/help.png</file>
+        <file>img/inkognito.jpg</file>
+        <file>helpNavigator/imghtml/2.jpg</file>
+        <file>helpNavigator/imghtml/3.jpg</file>
+        <file>helpNavigator/imghtml/4.jpg</file>
+        <file>helpNavigator/imghtml/5.jpg</file>
+        <file>helpNavigator/imghtml/6.jpg</file>
+        <file>helpNavigator/imghtml/7.jpg</file>
+        <file>helpNavigator/imghtml/8.jpg</file>
+        <file>helpNavigator/imghtml/9.1.jpg</file>
+        <file>helpNavigator/imghtml/9.2.jpg</file>
+        <file>helpNavigator/imghtml/9.jpg</file>
+        <file>helpNavigator/imghtml/10.jpg</file>
+        <file>helpNavigator/imghtml/11.jpg</file>
+        <file>helpNavigator/imghtml/cinema.png</file>
+        <file>helpNavigator/imghtml/1.jpg</file>
+        <file>helpNavigator/index.html</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,30 @@
+QtextEdit {
+    color: white;
+}
+
+QPushButton {
+    background-color: #2f4538;
+    color: white;
+    font-weight: bold;
+}
+
+/*QTableView {
+    background-color: black;
+}*/
+
+QWidget {
+    background-color: #b30000;
+    color: white; /* текст */
+}
+
+QLabel {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;  
+}
+
+/*QMessageBox
+{
+    background-color: #d9c1a9; 
+    color: black; 
+}
